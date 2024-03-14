@@ -1,0 +1,19 @@
+<h2>Database Diagram</h2>
+<p>Table name: <input id="name" type="text"></p>
+<p>Amount of columns: <input id="name" type="text"></p>
+<button id="create">Create</button>
+<button id="cancel">Cancel</button>
+
+<script>
+
+	document.getElementById("create").onclick = () => {
+		const textbox = document.getElementById("name");
+		const name = textbox.value
+		parent.postMessage({ pluginMessage: { type: "create-table", name } }, "*")
+	}
+
+	document.getElementById("cancel").onclick = () => {
+		parent.postMessage({ pluginMessage: { type: "cancel" } }, "*")
+	}
+
+</script>

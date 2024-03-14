@@ -1,0 +1,26 @@
+{
+	"name": "database-diagram",
+	"version": "1.0.0",
+	"description": "Create a diagram of your database with Figma",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "npm run build -- --watch",
+		"build": "webpack",
+		"lint": "eslint --ext .ts,.tsx --ignore-pattern node_modules .",
+		"lint:fix": "eslint --ext .ts,.tsx --ignore-pattern node_modules --fix ."
+	},
+	"author": "Maxence Bonamy",
+	"license": "ISC",
+	"devDependencies": {
+		"@figma/eslint-plugin-figma-plugins": "*",
+		"@figma/plugin-typings": "*",
+		"@maxencebonamy/eslint-config": "^1.0.2",
+		"@typescript-eslint/eslint-plugin": "^6.12.0",
+		"@typescript-eslint/parser": "^6.12.0",
+		"eslint": "^8.54.0",
+		"ts-loader": "^9.5.1",
+		"typescript": "^5.4.2",
+		"webpack": "^5.90.3",
+		"webpack-cli": "^5.1.4"
+	}
+}

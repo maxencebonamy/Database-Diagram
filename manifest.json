@@ -1,0 +1,19 @@
+{
+	"name": "Database Diagram",
+	"id": "1350027626394342932",
+	"api": "1.0.0",
+	"main": "dist/index.js",
+	"capabilities": [],
+	"enableProposedApi": false,
+	"editorType": [
+		"figma",
+		"figjam"
+	],
+	"ui": "src/ui/index.html",
+	"networkAccess": {
+		"allowedDomains": [
+			"none"
+		]
+	},
+	"documentAccess": "dynamic-page"
+}
