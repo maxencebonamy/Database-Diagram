@@ -10,7 +10,7 @@
 		"lint:fix": "eslint --ext .ts,.tsx --ignore-pattern node_modules --fix ."
 	},
 	"author": "Maxence Bonamy",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@figma/eslint-plugin-figma-plugins": "*",
 		"@figma/plugin-typings": "*",
